@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "net.zaills.undead_transformation.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "burn_zombie",
+    "drowning_skeleton"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+	}
+}
